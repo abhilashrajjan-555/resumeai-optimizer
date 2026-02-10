@@ -1,46 +1,38 @@
-# 🤖 Resume AI Optimizer
+# Resume AI Optimizer
 
-AI-powered resume analysis and optimization tool designed to help job seekers maximize their resumes for ATS compatibility and hiring manager appeal.
+AI-powered resume analysis and optimization assistant concept for ATS compatibility and hiring manager readiness.
 
-## 🌟 Features
+## Status
 
-- **ATS Compatibility Analysis** - Detect formatting issues that block ATS systems
-- **Resume Scoring** - Get detailed score based on industry best practices
-- **Keyword Optimization** - Identify missing keywords for your target role
-- **Impact Quantification** - Convert vague statements into quantified achievements
-- **Action Verb Enhancement** - Replace weak verbs with powerful alternatives
-- **Role-Specific Recommendations** - Tailored suggestions based on job title
+This repository is currently in planning stage and contains documentation only.
+Runtime source files (for example, `main.py` and `requirements.txt`) are not added yet.
 
-## 🚀 Quick Start
+## Planned Features
 
-### Installation
+- ATS compatibility analysis
+- Resume scoring using role-specific criteria
+- Keyword gap detection for target job descriptions
+- Impact quantification suggestions
+- Action verb improvements
+- Tailored recommendations by role and level
+
+## Current Setup
 
 ```bash
 git clone https://github.com/abhilashrajjan-555/resumeai-optimizer.git
 cd resumeai-optimizer
-pip install -r requirements.txt
 ```
 
-### Usage
+## Planned Tech Stack
 
-```bash
-python main.py --resume your_resume.pdf --role "Software Engineer"
-```
+- Backend: Python + FastAPI
+- AI Provider: Claude API (Anthropic)
+- Document processing: PyPDF2, python-docx
 
-## 🛠️ Tech Stack
-
-- **Backend**: Python + FastAPI
-- **AI**: Claude API (Anthropic)
-- **Document Processing**: PyPDF2, python-docx
-
-## 📜 License
+## License
 
 MIT License
 
-## 🤝 Contributing
+## Contributing
 
-Contributions welcome! Open issues or submit pull requests.
-
----
-
-Made with ❤️ for job seekers and career changers
+Contributions are welcome. Open an issue or submit a pull request.
